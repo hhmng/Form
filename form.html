@@ -1,0 +1,131 @@
+<! DOCTYPE html>
+<html>
+<head>
+<title><3</title>
+<meta charset="UTF-8">
+<style>
+   body{
+    background-color: #d8bfd8;
+   } 
+   h3 { 
+	text-align: center;
+   }
+   table {
+    width: 80%;
+	table-layout: fixed;
+   }
+   table td {
+	width: 100%;
+	font-weight: bolder;
+   }
+   
+  </style>
+</head>
+
+<body>
+<h3> ФОРМА </h3>
+ <form method="get" action="">
+ 
+<fieldset>
+<legend align="left">Регистрационная информация</legend>
+Введите логин: <input type="text" name="Reg_login" value="<10 символов"/><br/>
+Введите пароль: <input type="password" name="Reg_password" value="123456"/><br/>
+</fieldset>
+
+<fieldset>
+<legend align="center">Личная информация</legend>
+Имя:<input type="text" value="Ваше имя" name="form_name"/><br/>
+Фамилия:<input type="text" value="Ваша фамилия" name="form_fam"/><br/>
+Отчество:<input type="text" value="Ваше отчество" name="form_otch"/><br/>
+
+<label for="form_sex">Ваш пол:</label>
+<input type="radio"  name="form_sex" value="1" id="form_sex1"/>
+<label for="form_sex1">М</label>
+<input type="radio"  name="form_sex" value="2" id="form_sex2"/>
+<label for="form_sex2">Ж </label>
+<input type="radio"  name="form_sex" value="3" id="form_sex3"/>
+<label for="form_sex3">Не хочу отвечать</label>
+</br>
+<label for="form_age">Ваш возраст:</label>
+<input type="radio"  name="form_age" value="1" id="form_age1"/>
+<label for="form_radio1">до 18</label>
+<input type="radio"  name="form_age" value="2" id="form_age2"/>
+<label for="form_radio2">18-25</label>
+<input type="radio"  name="form_age" value="3" id="form_age3"/>
+<label for="form_radio3">25-35</label>
+<input type="radio"  name="form_age" value="4" id="form_age4"/>
+<label for="form_radio3">35-50</label>
+<input type="radio"  name="form_age" value="5" id="form_age5"/>
+<label for="form_radio3">старше 50</label>
+</fieldset>
+
+<fieldset>
+<legend align="right">Дополнительная информация</legend>
+<label for="City">Место проживания:</label>
+<select name="City" >
+<option value="1">Саранск</option>
+<option value="2">Краснослободск</option>
+<option value="3">Темников</option>
+<option value="4">Рузаевка</option>
+<option value="5">Ардатов</option>
+<option value="6">Инсар</option>
+<option value="7">Ковылкино</option>
+</select>
+<br/>
+
+<label for="Job">Область Работы(можно выбрать несколько):</label>
+</br>
+<select name="Job" size="6" multiple>
+<optgroup label="Журналистика">
+<option value="1">Бизнес</option>
+<option value="2">Экология</option>
+<option value="3">Туризм</option>
+</optgroup>
+<optgroup label="Программирование">
+<option value="4">Web-Программирование</option>
+<option value="5">C/C++</option>
+<option value="6">Delphi</option>
+<option value="7">Java</option>
+</optgroup>
+<optgroup label="Обучающийся">
+<option value="8">Школьник(ца)</option>
+<option value="9">Студент(ка)</option>
+</optgroup>
+</select>
+<br/>
+
+<label for="Hobby">Увлечения:</label>
+</br>
+<input type="checkbox" name="Hobby" value="1" id="id_read"/>
+<label for="id_read">Чтение </label>
+<input type="checkbox" name="Hobby" value="1" id="id_sing"/>
+<label for="id_sing">Пение</label>
+<input type="checkbox" name="Hobby" value="1" id="id_dance"/>
+<label for="id_dance">Танцы</label>
+<input type="checkbox" name="Hobby" value="1" id="id_cook"/>
+<label for="id_cook">Кулинария</label>
+<input type="checkbox" name="Hobby" value="1" id="id_sport"/>
+<label for="id_sport">Спорт</label>
+</br>
+
+<label for="Photo">Добавьте своё фото:</label>
+ <input type="file" value="Выберите файл" name="Photo"/>
+</br>
+<label for="Me">Расскажите о себе:</label></br>
+<textarea name="Me" rows="5">Я самый лучший!</textarea>
+
+</fieldset>
+
+<fieldset>
+<legend align="center">Информация о нас</legend>
+<label for="Doc">Соглашение:</label></br>
+<textarea readonly name="Doc" rows="3">Условия соглашения...</textarea>
+</fieldset>
+
+<input type="submit" value="Отправить" name="Sent"/>
+<input type="reset" value="Сбросить" name="Delete"/>
+
+</form>
+
+</body>
+</html>
