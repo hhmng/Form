@@ -1,4 +1,4 @@
-# Form
-### Форма &#128203; 
-![form](https://user-images.githubusercontent.com/102478524/169716479-85ba568b-b411-4447-8624-15a6a5dc3dd8.gif)
-<p> </p>
+# &#128203; Form
+### Форма &#128221;  
+![form](https://user-images.githubusercontent.com/102478524/169717215-3a29c1b5-94a0-4309-a344-15139b1d4ca1.gif)
+<p> Простая форма, предназначенная для обмена данными между пользователем и сервером.</p>
